@@ -1,0 +1,20 @@
+{
+    "name": "logipro/dojo",
+    "description": "Ressource pour mise en place projet/kata avec langage php",
+    "license": "proprietary",
+    "type": "metapackage",
+    "autoload": {
+        "psr-4": {
+            "Dojo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dojo\\Tests\\": "tests/unit"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^1.3"
+    }
+}
